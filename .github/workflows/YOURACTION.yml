@@ -16,6 +16,6 @@ jobs:
           heroku_app_name: "kaelsihombing-portfolio" #Must be unique in Heroku
           heroku_email: "sntmcl1@gmail.com"
           buildpack: "SOME BUILDPACK" #OPTIONAL
-          branch: "HEAD" #OPTIONAL and DEFAULT - 'HEAD' (a.k.a your current branch)
+          branch: "+HEAD" #OPTIONAL and DEFAULT - 'HEAD' (a.k.a your current branch)
           dontuseforce: true #OPTIONAL and DEFAULT - false
           usedocker: false #OPTIONAL and DEFAULT - false
