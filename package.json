@@ -1,23 +1,27 @@
 {
-  "name": "personal_portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaelsihombing/kaelsihombing-portfolio.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kaelsihombing/kaelsihombing-portfolio/issues"
-  },
-  "homepage": "https://github.com/kaelsihombing/kaelsihombing-portfolio#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7"
-  }
+    "name": "personal_portfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kaelsihombing/kaelsihombing-portfolio.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kaelsihombing/kaelsihombing-portfolio/issues"
+    },
+    "homepage": "https://github.com/kaelsihombing/kaelsihombing-portfolio#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    }
 }

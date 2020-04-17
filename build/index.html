@@ -4,16 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/icon.svg">
+    <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/animate.css">
-    <title>My Portfolio</title>
+    <title>Kael Sihombing</title>
 </head>
 
 <body>
-    <div class="navbar">
+
+    <div class="navbar" id="navbar">
         <header>
             <div class="logo">
-                <h1>kael<span>sihombing</span></h1>
+                <a href="https://kaelsihombing-portfolio.herokuapp.com">
+                    <h1>kael<span>sihombing</span></h1>
+                </a>
             </div>
 
             <nav>
@@ -31,341 +36,366 @@
         </header>
     </div>
 
-    <div class="container main-info-section">
-        <div class="text">
-            <p>Hi, my name is</p>
-            <h1>
-                <span class="key">S</span>
-                <span class="m-left key">a</span>
-                <span class="m-left key">n</span>
-                <span class="m-left key">t</span>
-                <span class="m-left key">o</span>
-                <span></span>
-                <span class="name key">M</span>
-                <span class="m-left name key">i</span>
-                <span class="m-left name key">c</span>
-                <span class="m-left name key">h</span>
-                <span class="m-left name key">a</span>
-                <span class="m-left name key">e</span>
-                <span class="m-left name key">l</span>
-                <span class="m-left">,</span>
-                <br>
-                <span>J</span>
-                <span class="m-left">u</span>
-                <span class="m-left">n</span>
-                <span class="m-left">i</span>
-                <span class="m-left">o</span>
-                <span class="m-left">r</span>
-                <span> </span>
-                <span class="m-left">D</span>
-                <span class="m-left">e</span>
-                <span class="m-left">v</span>
-                <span class="m-left">e</span>
-                <span class="m-left">l</span>
-                <span class="m-left">o</span>
-                <span class="m-left">p</span>
-                <span class="m-left">e</span>
-                <span class="m-left">r</span>
-                <br>
-            </h1>
-            <div>
-                <p class="description">
-                    I'm a junior developer based in Batam, Indonesia specializing in building exceptional and
-                    high-quality
-                    websites especially on the server side .
-                </p>
-            </div>
-            <a href="mailto:sntmcl1@gmail.com">Get in touch</a>
+    <div class="side-left-contact">
+        <ul class="styled-content">
+            <li>
+                <a class="social-media" href="">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a class="social-media" href="">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a class="social-media" href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="side-right-contact">
+        <div class="email">
+            <a href="mailto:sntmcl1@gmail.com">sntmcl1@gmail.com</a>
         </div>
     </div>
 
-    <div class="container about section" id="about">
-        <h1>About</h1>
-        <div class="about-main">
-            <div class="about-left">
-                <div class="about-me-info">
-                    <p class="about-1">
-                        Hello! I'm Mike, a junior developer based in Batam, Indonesia who enjoys building things that
-                        live
-                        on
-                        the internet.
-                    </p>
-                    <p class="about-2">
-                        I develop exceptional websites and web apps that provide intuitive, pixel-perfect user
-                        interfaces
-                        with
-                        efficient and modern Back-End
-                    </p>
-                    <p class="about-3">
-                        Shortly after graduating from Samarinda State Polytechnic, I joined the Glints Academy in Batam
-                        where I learned on a wide variety of programming languages and the other popular technologies.
-                    </p>
+    <div class="content">
 
+        <div class="container main-info-section">
+            <div class="text">
+                <p>Hi, my name is</p>
+                <h1>
+                    <span class="key">S</span>
+                    <span class="m-left key">a</span>
+                    <span class="m-left key">n</span>
+                    <span class="m-left key">t</span>
+                    <span class="m-left key">o</span>
+                    <span></span>
+                    <span class="name key">M</span>
+                    <span class="m-left name key">i</span>
+                    <span class="m-left name key">c</span>
+                    <span class="m-left name key">h</span>
+                    <span class="m-left name key">a</span>
+                    <span class="m-left name key">e</span>
+                    <span class="m-left name key">l</span>
+                    <span class="m-left">,</span>
+                    <br>
+                    <span>J</span>
+                    <span class="m-left">u</span>
+                    <span class="m-left">n</span>
+                    <span class="m-left">i</span>
+                    <span class="m-left">o</span>
+                    <span class="m-left">r</span>
+                    <span> </span>
+                    <span class="m-left">D</span>
+                    <span class="m-left">e</span>
+                    <span class="m-left">v</span>
+                    <span class="m-left">e</span>
+                    <span class="m-left">l</span>
+                    <span class="m-left">o</span>
+                    <span class="m-left">p</span>
+                    <span class="m-left">e</span>
+                    <span class="m-left">r</span>
+                    <br>
+                </h1>
+                <div>
+                    <p class="description">
+                        I'm a junior developer based in Batam, Indonesia specializing in building exceptional and
+                        high-quality
+                        websites especially on the server side .
+                    </p>
                 </div>
+                <a href="mailto:sntmcl1@gmail.com">Get in touch</a>
             </div>
-            <div class="about-left">
-                <div class="profile-image">
+        </div>
+
+        <div class="container about-section" id="about">
+            <div class="about-section-title">
+                <h1>About Me</h1>
+            </div>
+            <div class="about-main">
+                <div class="about-right">
+                    <div class="about-me-info">
+                        <p class="about-1">
+                            Hello! I'm Mike, a junior developer based in Batam, Indonesia who enjoys building things
+                            that
+                            live
+                            on
+                            the internet.
+                        </p>
+                        <p class="about-2">
+                            I develop exceptional websites and web apps that provide intuitive, pixel-perfect user
+                            interfaces
+                            with
+                            efficient and modern Back-End
+                        </p>
+                        <p class="about-3">
+                            Shortly after graduating from College, I joined the Glints Academy in
+                            Batam
+                            where I learned on a wide variety of programming languages and the other popular
+                            technologies.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-left">
                     <img src="./images/photo1.png" alt="">
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container skills" id="skills">
-        <div class="title">
-            <h1>Skills</h1>
-        </div>
-        <div class="main">
-            <div>
-                <p class="skills-info">
-                    Here are a few technologies I've been working with recently:
-                </p>
+        <div class="container skills-section" id="skills">
+            <div class="skills-section-title">
+                <h1>Skills</h1>
             </div>
             <div class="skills-main">
-                <div class="skills-left" id="skills-left">
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>Javasript(ES6+)</p>
-                        </div>
-                        <div class="progressbar">
-                            <div class="bar-1"></div>
-                        </div>
-                    </div>
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>Node Js</p>
-                        </div>
-                        <div class="progressbar">
-                            <div class="bar-2"></div>
-                        </div>
-                    </div>
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>NonSQL</p>
-                        </div>
-                        <div class="progressbar">
-                            <div class="bar-3"></div>
-                        </div>
-                    </div>
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>AWS</p>
-                        </div>
-                        <div class="progressbar">
-                            <div class="bar-4"></div>
-                        </div>
-                    </div>
+                <div class="skills-main-p">
+                    <p>
+                        Here are a few technologies I've been working with recently:
+                    </p>
                 </div>
-                <div class="skills-center" id="skills-center">
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>HTML/CSS</p>
+                <div class="skills-main-skillset">
+                    <div class="skills-left" id="skills-left">
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>Javasript(ES6+)</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-1"></div>
+                            </div>
                         </div>
-                        <div class="progressbar">
-                            <div class="bar-5"></div>
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>Node Js</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-2"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>Express</p>
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>NonSQL</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-3"></div>
+                            </div>
                         </div>
-                        <div class="progressbar">
-                            <div class="bar-6"></div>
-                        </div>
-                    </div>
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>SQL</p>
-                        </div>
-                        <div class="progressbar">
-                            <div class="bar-7"></div>
-                        </div>
-                    </div>
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>Docker</p>
-                        </div>
-                        <div class="progressbar">
-                            <div class="bar-8"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills-right" id="skills-right">
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>CI/CD</p>
-                        </div>
-                        <div class="progressbar">
-                            <div class="bar-9"></div>
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>AWS</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-4"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>React</p>
+                    <div class="skills-center" id="skills-center">
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>HTML/CSS</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-5"></div>
+                            </div>
                         </div>
-                        <div class="progressbar">
-                            <div class="bar-10"></div>
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>Express</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-6"></div>
+                            </div>
+                        </div>
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>SQL</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-7"></div>
+                            </div>
+                        </div>
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>Docker</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-8"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>Figma</p>
+                    <div class="skills-right" id="skills-right">
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>Golang</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-9"></div>
+                            </div>
                         </div>
-                        <div class="progressbar">
-                            <div class="bar-11"></div>
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>React</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-10"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="html">
-                        <div class="tag-html">
-                            <p>Photoshop</p>
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>CI/CD</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-11"></div>
+                            </div>
                         </div>
-                        <div class="progressbar">
-                            <div class="bar-12"></div>
+                        <div class="html">
+                            <div class="tag-html">
+                                <p>Photoshop</p>
+                            </div>
+                            <div class="progressbar">
+                                <div class="bar-12"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container work" id="work">
-        <div>
-            <h1>Work</h1>
-        </div>
+        <div class="container work-section" id="work">
+            <div class="work-section-title">
+                <h1>Work</h1>
+            </div>
 
-        <div class="work-hero">
-            <h2 class="work-hero-title">Where i've worked</h2>
-            <h2 class="work-hero-title absolute">Where i've worked</h2>
-            <div class="work-hero-experiences">
-                <div class="work-experiences-tab">
-                    <ul class="list" id="list">
-                        <li><button id="phm" class="active" onclick="showWorks(this)">PHM</button></li>
-                        <li><button id="ep" onclick="showWorks(this)">Pertamina EP</button></li>
-                        <li><button id="olimpiade" onclick="showWorks(this)">Olimpiade</button></li>
-                        <li><button id="sf" onclick="showWorks(this)">SF</button></li>
-                    </ul>
-                </div>
-                <div class="work-experiences-details">
-                    <div class="experience-phm showTab">
-                        <h3> <span>Database Maintainer</span> @ PT Pertamina Hulu Mahakam</h3>
-                        <p>Nov 2018 - May2019</p>
-                        <ul class="tab">
-                            <li>
-                                <p>Lorem Ipsum</p>
-                                <h8>consectetur adipiscing elit. Donec convallis venenatis purus, eu pharetra urna
-                                    molestie eget.</h8>
-                            </li>
-                            <li>
-                                <p>Lorem Ipsum</p>
-                                <h8>consectetur adipiscing elit. Donec convallis venenatis purus, eu pharetra urna
-                                    molestie eget.</h8>
-                            </li>
-                            <li>
-                                <p>Lorem Ipsum</p>
-                                <h8>consectetur adipiscing elit. .</h8>
-                            </li>
+            <div class="work-hero">
+                <h2 class="work-hero-title">Where i've worked</h2>
+                <div class="work-hero-experiences">
+                    <div class="work-experiences-tab">
+                        <ul class="list" id="list">
+                            <li><button id="phm" class="active" onclick="showWorks(this)">PHM</button></li>
+                            <li><button id="ep" onclick="showWorks(this)">Pertamina EP</button></li>
+                            <li><button id="olimpiade" onclick="showWorks(this)">Olimpiade</button></li>
+                            <li><button id="sf" onclick="showWorks(this)">SF</button></li>
                         </ul>
                     </div>
-                    <div class="experience-ep hideTab">
-                        <h3> <span>Network Maintainer</span> @ PT Pertamina EP Sangatta</h3>
-                        <p>Jul 2018 - Aug 2019</p>
-                        <ul class="tab">
-                            <li>
-                                <p>Lorem Ipsum</p>
-                                <h8>consectetur adipiscing elit. Donec convallis venenatis purus, eu pharetra urna
-                                    molestie eget.</h8>
-                            </li>
-                            <li>
-                                <p>Lorem Ipsum</p>
-                                <h8>consectetur adipiscing elit. Donec convallis venenatis purus, eu pharetra urna
-                                    molestie eget.</h8>
-                            </li>
-                            <li>
-                                <p>Lorem Ipsum</p>
-                                <h8>consectetur adipiscing elit. .</h8>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="experience-olimpiade hideTab">
-                        <h3> <span>English Tutor</span> @ PT Olimpiade Course</h3>
-                        <p>2017</p>
-                        <ul class="tab">
-                            <li>
-                                <p>Lorem Ipsum</p>
-                                <h8>consectetur adipiscing elit. Donec convallis venenatis purus, eu pharetra urna
-                                    molestie eget.</h8>
-                            </li>
-                            <li>
-                                <p>Lorem Ipsum</p>
-                                <h8>consectetur adipiscing elit. Donec convallis venenatis purus, eu pharetra urna
-                                    molestie eget.</h8>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="experience-sf hideTab">
-                        <h3> <span>English Tutor</span> @ Smart & Fun Course</h3>
-                        <p>2014 - 2015</p>
-                        <ul class="tab">
-                            <li>
-                                <p>Lorem Ipsum</p>
-                                <h8>consectetur adipiscing elit. Donec convallis venenatis purus, eu pharetra urna
-                                    molestie eget.</h8>
-                            </li>
-                        </ul>
-                    </div>
+                    <div class="work-experiences-details">
+                        <div class="experience-phm showTab">
+                            <h3> <span>Database Maintainer</span> @ PT Pertamina Hulu Mahakam</h3>
+                            <p class="date">Nov 2018 - May2019</p>
+                            <ul class="tab">
+                                <li>
+                                    <p>Equipment database</p>
+                                    <h8>Working on the company's equipment database and built it using Visual Basic and
+                                        SQL
+                                        database.</h8>
+                                </li>
+                                <li>
+                                    <p>Clustering equipment </p>
+                                    <h8>Building automation of equipment reliability calculations to help scale
+                                        maintenance,
+                                        and clustering the equipment using K-Means algorithm method.
+                                    </h8>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="experience-ep hideTab">
+                            <h3> <span>Network Maintainer</span> @ PT Pertamina EP Sangatta</h3>
+                            <p class="date">Jul 2018 - Aug 2019</p>
+                            <ul class="tab">
+                                <li>
+                                    <p>Network maintainer</p>
+                                    <h8>Responsible and working on the network issues, troubleshooting and maintaining
+                                        the
+                                        network.
+                                    </h8>
+                                </li>
+                                <li>
+                                    <!-- <p>Lorem Ipsum</p> -->
+                                    <h8>Maintain the Information & Communication of the company.</h8>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="experience-olimpiade hideTab">
+                            <h3> <span>English Tutor</span> @ PT Olimpiade Course</h3>
+                            <p class="date">2017</p>
+                            <ul class="tab">
+                                <li>
+                                    <p>English tutor</p>
+                                    <h8>Teach and guide the Primary - Junior High Schoolar to learn English with a fun
+                                        method.</h8>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="experience-sf hideTab">
+                            <h3> <span>English Tutor</span> @ Smart & Fun Course</h3>
+                            <p class="date">2014 - 2015</p>
+                            <ul class="tab">
+                                <li>
+                                    <p>English tutor</p>
+                                    <h8>Teach and guide the kindergarten - Senior High Schoolar to learn English with a
+                                        fun
+                                        method.</h8>
+                                </li>
+                            </ul>
+                        </div>
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container built" id="built">
-        <div class="built-title">
-            <h1>Somethings I've built</h1>
+        <div class="container built" id="built">
+            <div class="built-title">
+                <h1>Some Things I've Built</h1>
+            </div>
+
+            <div>
+                <div class="work-category">
+                    <button id="web" class="active" onclick="showRequiredCategory(this)">Web Design</button>
+                    <button id="app" onclick="showRequiredCategory(this)">App Design</button>
+                    <button id="project" onclick="showRequiredCategory(this)">Project</button>
+                </div>
+                <div class="category-web showCategory">
+                    <a href="https://www.figma.com/file/Pi40bFRHJpULDWPPLoJYPL/AYOvest?node-id=0%3A1"><img
+                            src="./images/1.AYOvest.png" alt="AYOvest"></a>
+                    <a href="https://www.figma.com/file/z5q0tFdILYHYD1LqNt6LG4/Portfolio-Landing-Page?node-id=0%3A1"><img
+                            src="./images/4.my-website.png" alt="Portfolio"></a>
+                </div>
+                <div class="category-app hideCategory">
+                    <a href="https://www.figma.com/file/Z1HBkXxJrP8bJUaJd798jN/AYovest-Mobile-SignIn?node-id=0%3A1"><img
+                            src="./images/2.AYOvest-mobile.png" alt="AYOvest-App"></a>
+                    <a href="https://www.figma.com/file/xnpsDnySK52MsyJbwkumC5/LinkedIn-Re-design?node-id=1%3A10"><img
+                            src="./images/3.linked-in.png" alt=""></a>
+                </div>
+                <div class="category-project hideCategory">
+                    <a href="https://github.com/kaelsihombing/todo-app"><img src="./images/7.to-do_app.png"
+                            alt="ToDo-app"></a>
+                    <a href="https://github.com/kaelsihombing/awesome-movie-database"><img
+                            src="./images/5.movie-database.png" alt="Movie-Database"></a>
+                    <a href="https://gitlab.com/glints-academy-5/Team-D/backend"><img src="./images/8.AYOvest.png"
+                            alt="Investment-Platform"></a>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <div class="work-category">
-                <button id="web" class="active" onclick="showRequiredCategory(this)">Web Design</button>
-                <button id="app" onclick="showRequiredCategory(this)">App Design</button>
-                <button id="project" onclick="showRequiredCategory(this)">Project</button>
-            </div>
-            <div class="category-web showCategory">
-                <a href="https://www.figma.com/file/Pi40bFRHJpULDWPPLoJYPL/AYOvest?node-id=0%3A1"><img
-                        src="./images/1.AYOvest.png" alt="AYOvest"></a>
-                <a href="https://www.figma.com/file/z5q0tFdILYHYD1LqNt6LG4/Portfolio-Landing-Page?node-id=0%3A1"><img
-                        src="./images/4.my-website.png" alt="Portfolio"></a>
-            </div>
-            <div class="category-app hideCategory">
-                <a href="https://www.figma.com/file/Z1HBkXxJrP8bJUaJd798jN/AYovest-Mobile-SignIn?node-id=0%3A1"><img
-                        src="./images/2.AYOvest-mobile.png" alt="AYOvest-App"></a>
-                <a href="https://www.figma.com/file/xnpsDnySK52MsyJbwkumC5/LinkedIn-Re-design?node-id=1%3A10"><img
-                        src="./images/3.linked-in.png" alt=""></a>
-            </div>
-            <div class="category-project hideCategory">
-                <a href="https://github.com/kaelsihombing/todo-app"><img src="./images/7.to-do_app.png"
-                        alt="ToDo-app"></a>
-                <a href="https://github.com/kaelsihombing/awesome-movie-database"><img
-                        src="./images/5.movie-database.png" alt="Movie-Database"></a>
-                <a href="https://gitlab.com/glints-academy-5/Team-D/backend"><img src="./images/8.AYOvest.png"
-                        alt="Investment-Platform"></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container contact" id="contact">
-        <h1>. . .</h1>
-        <!-- <form action="">
+        <div class="container contact" id="contact">
+            <h1>. . .</h1>
+            <!-- <form action="">
             <input type="text" name="name" placeholder="Full Name">
             <input type="email" placeholder="Email">
             <input type="email" placeholder="Portofolio@gmail.com" disabled>
             <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
             <input type="submit">
         </form> -->
+        </div>
     </div>
 
     <footer>
-        <p>Santo Michael Sihombing © 2020</p>
+        <p>
+            <a href="https://github.com/kaelsihombing" class="footer-text"> <span>Santo Michael Sihombing</span> © 2020
+                </<a>
+        </p>
     </footer>
 
 
@@ -375,6 +405,7 @@
     <script src="./js/TimelineMax.min.js"></script>
     <script src="./js/TweenMax.min.js"></script>
     <script src="./js/CSSPlugin.min.js"></script>
+    <script src="./js/parallax.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
