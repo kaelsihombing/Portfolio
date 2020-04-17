@@ -540,10 +540,10 @@ div[class^="bar-"] {
   /* background-color: red; */
   max-width: 1000px;
   min-height: 100vh;
-  margin: 5rem auto 1rem 0;
+  margin: 5rem auto 1rem auto;
   padding: 10rem 50px 0px 50px;
   display: flex;
-  /* align-items: flex-start; */
+  align-items: flex-start;
   -webkit-box-pack: center;
   flex-direction: column;
   justify-content: center;
@@ -564,7 +564,8 @@ div[class^="bar-"] {
 }
 
 .work-hero {
-  justify-self: center;
+  width: 100%;
+  justify-content: center;
 }
 
 .work-hero-title {
@@ -666,17 +667,26 @@ div.hideTab {
 
 /*  =========== */
 
-.container .built {
+.built-section {
+  /* background-color: red; */
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 5rem auto 1rem auto;
+  padding: 10rem 50px 0px 50px;
   display: flex;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.built-title {
+.built-section-title {
   color: var(--main-color-hover);
   text-align: left;
   margin-bottom: 30px;
 }
 
-.built-title h1 {
+.built-section-title h1 {
   font-size: 20px;
   font-weight: 600;
   color: var(--text-grey);
@@ -695,16 +705,23 @@ div.hideTab {
   cursor: pointer;
 }
 
+.built-section-hero {
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+}
+
 div[class^="category-"] {
   padding: auto;
-  margin-top: 50px;
+  margin-top: -20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-gap: 10px;
 }
 
 div[class^="category-"] a {
   justify-self: center;
+  align-items: center;
 }
 
 .work a {
