@@ -48,7 +48,7 @@ for (var i = 0; i < btns.length; i++) {
 
 
 // ANIMATION
-const spans = document.querySelectorAll(["h1 span", "a.social-media i"])
+const spans = document.querySelectorAll(["h1 span", "a.social-media i", ".featured-StyledContent div a i"])
 
 spans.forEach(span => span.addEventListener('mouseover', function (e) {
     span.classList.add('animated', 'rubberBand')
