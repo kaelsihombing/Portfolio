@@ -13,7 +13,7 @@ jobs:
       - uses: AkhileshNS/heroku-deploy@v3.0.0 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "kaelsihombing-portfolio" #Must be unique in Heroku
+          heroku_app_name: "kaelsihombing" #Must be unique in Heroku
           heroku_email: "sntmcl1@gmail.com"
           buildpack: "SOME BUILDPACK" #OPTIONAL
           branch: "+HEAD" #OPTIONAL and DEFAULT - 'HEAD' (a.k.a your current branch)
