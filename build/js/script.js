@@ -59,7 +59,6 @@ spans.forEach(span => span.addEventListener('mouseout', function (e) {
 }))
 
 // Skill bar
-
 const bar1 = document.querySelector('.bar-1')
 const bar2 = document.querySelector('.bar-2')
 const bar3 = document.querySelector('.bar-3')
