@@ -71,6 +71,10 @@ header {
     align-items: center;
 }
 
+div.navbar {
+    width: 100%;
+}
+
 div.logo {
     display: flex;
     align-items: center;
@@ -348,8 +352,8 @@ span.m-left {
 }
 
 .about-section-title {
-    height: 150px;
-    width: 900px;
+    max-height: 150px;
+    max-width: 900px;
 }
 
 .about-section-title h1 {
@@ -852,7 +856,7 @@ div.hideCategory {
 
 /* CONTACT */
 
-.contact {
+/* .contact {
     margin-top: 50px;
 }
 
@@ -878,7 +882,7 @@ form input:last-child {
     background-color: var(--main-color);
     border: none;
     cursor: pointer;
-}
+} */
 
 footer {
     background-color: var(--footer);
@@ -903,116 +907,97 @@ footer p a span {
     color: var(--nav-color);
 }
 
-/* @media only screen and (max-width: 480) {
-  nav li:nth-child(1),
-  nav li:nth-child(2),
-  nav li:nth-child(3) {
-    display: none;
-  }
+@media all and (min-width: 375px) and (max-width: 667px) {
 
-  div.container {
-    height: 70vh;
-  }
+    nav li:nth-child(1),
+    nav li:nth-child(2),
+    nav li:nth-child(3) {
+        display: none;
+    }
 
-  .content {
-    padding: 0 80px;
-  }
+    .navbar {
+        padding: 0 40px;
+    }
 
-  MAIN INFO SECTION
-  .main-info-section {
-    padding: 80px 0px;
-  }
+    .navbar h1 {
+        font-size: 22px;
+    }
 
-  .text h1 {
-    font-size: 2.2rem;
-  }
+    .content {
+        padding: 0 40px;
+    }
 
-  span.key {
-    font-size: 50px;
-  }
+    .main-info-section {
+        padding: 80px 0px;
+    }
 
-  .text div p {
-    width: 500px;
-  }
+    .text h1 {
+        font-size: 1.5rem;
+    }
 
-  .text p.description {
-    font-size: 15px;
-  }
+    span.key {
+        font-size: 35px;
+    }
 
-  ABOUT SECTION
-  .about-section {
-    min-height: 70vh;
-  }
+    .text div p {
+        width: 280px;
+    }
 
-  .about-section-title h1 {
-    font-size: 7rem;
-    top: 5px;
-    left: -10rem;
-  }
+    .text p.description {
+        font-size: 10px;
+    }
 
-  .about-left img {
-    max-width: 15rem;
-    margin-left: 2rem;
-    margin-top: 0rem;
-  }
+    /* .about-section {
+        min-height: 70vh;
+    } */
 
-  Skills Section
+    div.about-me-info {
+        width: 20rem;
+    }
 
-  .skills-section {
-    min-height: 70vh;
-    margin: 5rem auto;
-    padding: 80px 50px;
-  }
+    div.about-me-info p {
+        font-size: 11px;
+    }
 
-  div.skills-section-title {
-    font-size: 5rem;
-    top: -14rem;
-    right: -16rem;
-  }
+    div.about-section {
+        padding: 90px 0px;
+    }
 
-  .work-section {
-    min-height: 70vh;
-    margin: 5rem auto;
-    padding: 80px 50px;
-  }
+    .about-section-title h1 {
+        font-size: 4rem;
+        top: 10px;
+        left: -60px;
+        width: 300px;
+    }
 
-  .work-section-title {
-    text-align: center;
-    font-size: 5rem;
-    color: var(--main-color-hover);
-    left: -13rem;
-  }
-} */
+    .about-left img {
+        max-width: 10rem;
+        margin-left: 2rem;
+        margin-top: 0rem;
+    }
 
-/* @media only screen and (max-width: 667px) {
-  nav li {
-    list-style: none;
-    margin-left: 20px;
-  }
+    .skills-section {
+        min-height: 70vh;
+        margin: 5rem auto;
+        padding: 80px 50px;
+    }
 
-  .about-section {
-    padding: 0 50px;
-  }
+    div.skills-section-title {
+        font-size: 2.2rem;
+        top: -14rem;
+        right: -8rem;
+    }
 
-  .about-me-info {
-    max-width: 550px;
-    background-color: #07232bad;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.328);
-    padding: 2rem;
-    padding: 20px;
-    position: relative;
-    top: -78px;
-    left: 65%;
-    right: 35%;
-    transform: translateX(-50%);
-    z-index: 1;
-  }
+    .work-section {
+        min-height: 70vh;
+        margin: 5rem auto;
+        padding: 80px 50px;
+    }
+
+    .work-section-title {
+        text-align: center;
+        font-size: 5rem;
+        color: var(--main-color-hover);
+        left: -13rem;
+    }
 }
-
-@media only screen and (max-width: 631px) {
-  nav li:nth-child(1),
-  nav li:nth-child(2),
-  nav li:nth-child(3) {
-    display: none;
-  }
-} */
